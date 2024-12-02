@@ -22,6 +22,6 @@ public class MiddlePipe : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

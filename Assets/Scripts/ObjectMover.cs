@@ -8,7 +8,7 @@ public class BirdMover : MonoBehaviour
     [SerializeField] float speed = 5f;
     [SerializeField] InputAction Botton = new InputAction(type: InputActionType.Button);
     bool birdIsAlive = true;
-   
+
     Manager logicManager;
     [SerializeField] string triggeringTag;
 
