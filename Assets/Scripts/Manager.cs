@@ -8,8 +8,8 @@ public class Manager : MonoBehaviour
     int gameScore = 0;
     [SerializeField] Text scoreText;
     [SerializeField] GameObject gameOverScreen;
-
     [ContextMenu("add point")]
+
     public void AddPoint(int pointsToAdd)
     {
         gameScore += pointsToAdd;

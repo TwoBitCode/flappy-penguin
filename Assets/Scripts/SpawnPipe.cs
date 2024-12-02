@@ -4,7 +4,6 @@ using UnityEngine;
 public class SpawnPipe : MonoBehaviour
 {
     [SerializeField] GameObject pipe;
-
     [SerializeField] float secondsBetweenSpawns = 1f;
     [SerializeField] float heightOffset = 7f;
     private bool isSpawning = true;
